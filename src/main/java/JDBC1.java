@@ -7,9 +7,11 @@ import java.sql.*;
  */
 public class JDBC1 {
 
-    static final String db_url = "jdbc:postgresql://localhost:5432/postgres";
-    static final String db_user = "postgres";
-    static final String db_password = "733securex";
+    private static final String db_url = "jdbc:postgresql://localhost:5432/postgres";
+    private static final String db_user = "postgres";
+    private static final String db_password = "733securex";
+
+
 
 
     public static void main(String[] args){
